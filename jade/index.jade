@@ -14,44 +14,66 @@ body#_top
     != "<![endif]-->"
     main(role='main')
         include include/header
-        section#hero
-        section#about
+        section#hero.row
+        section#about.row
             h1 About
-                h2 Artist Statement
-                h2 Biography
-                h2 Resume
-        section#portfolio
+            img#portrait.small-4.columns(src='holder.js/300x300/sky')
+            .small-8.columns
+                h2.row Artist Statement
+                    p 
+                        | This is my revised artist statement
+                h2.row Biography
+                    p
+                        | This is my updated biography
+                h2.row Resume
+                    p
+                        a(href="##")
+                            | This is a link to my JSON Resume
+        section#portfolio.row
             h1 Portfolio
+            .small-6.columns
                 h2 Web Development
-                    h3 Front-End
-                    h3 Back-End 
+                    .row
+                        .small-6.columns
+                            h3 Front-End
+                        .small-6.columns
+                            h3 Back-End 
+            .small-6.columns
                 h2 Photography
-                    h3 Nature
-                    h3 Portraits
-        section#services
+                    .row
+                        .small-6.columns
+                            h3 Nature
+                        .small-6.columns
+                            h3 Portraits
+        section#services.row
             h1 Services
                 h2 Web Development
                     h3 Static Sites
-                    h3 Dynamic Sites with Content Management Systems
+                    h3 Dynamic Sites
                 h2 Photography
-        section#contact
+        section#contact.row
             h1 Contact
                 h2 Social Media
-                    ul
+                    ul.inline-list
                         li
                             a#facebook(href='//www.facebook.com/ryanadkinsphotography')
-                                | Facebook
+                                i.fa.fa-facebook
+                                    | Facebook
                         li
                             a#flickr(href='//www.flickr.com/photos/ryanadkins/')
-                                | Flickr
+                                i.fa.fa-flickr
+                                    | Flickr
                         li
                             a#linkedin(href='//www.linkedin.com/in/ryanaadkins/')
-                                | LinkedIn
+                                i.fa.fa-linkedin
+                                    | LinkedIn
                         li
                             a#github(href='//github.com/ryanadkins')
-                                | GitHub
+                                i.fa.fa-github
+                                    | GitHub
             a#email(href='##')
-                | Email RyanAdkins AT gmail DOT com
+                i.fa.fa-envelope-o
+                    | Email RyanAdkins AT gmail DOT com
             address
                 | Anchorage, Alaska USA 
     include include/footer

@@ -5416,3 +5416,18 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather Sans", sans-serif; }
+
+p, ul, ol {
+  font-family: "Merriweather", serif; }
+
+main > section {
+  width: 100%;
+  height: 500px;
+  background: #f8f8f8;
+  border-bottom: 0.75rem solid #333333;
+  padding-top: 0.75rem; }
+
+main > section:last-of-type {
+  border-bottom: none; }

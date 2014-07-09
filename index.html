@@ -7,6 +7,7 @@
     <meta name="description" content="Ryan Adkins is digital artist working in the mediums of web development &amp; photography">
     <title>Ryan Adkins Web Developer & Photographer</title>
     <link rel="stylesheet" href="content/css/app.css">
+    <link href="//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Merriweather+Sans:300,300italic,400,400italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/holderjs/holder.js"></script>
@@ -15,53 +16,92 @@
 <body id="_top"><!--[if lt IE 7]>
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="//browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
   <main role="main">
-    <header role="banner">
-      <h1 class="logo">RyanAdkins.com</h1>
+    <header role="banner" class="row">
+      <nav data-topbar="" class="top-bar">
+        <ul class="title-area">
+          <li class="name">
+            <h1 class="logo"><a href="//www.ryanadkins.com">RyanAdkins.com</a></h1>
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone-->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <!-- Right Nav Section-->
+          <ul class="right">
+            <li class="active"><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
     </header>
-    <section id="hero"></section>
-    <section id="about">
-      <h1>About
-        <h2>Artist Statement</h2>
-        <h2>Biography</h2>
-        <h2>Resume</h2>
-      </h1>
+    <section id="hero" class="row"></section>
+    <section id="about" class="row">
+      <h1>About</h1><img id="portrait" src="holder.js/300x300/sky" class="small-4 columns">
+      <div class="small-8 columns">
+        <h2 class="row">Artist Statement
+          <p>This is my revised artist statement</p>
+        </h2>
+        <h2 class="row">Biography
+          <p>This is my updated biography</p>
+        </h2>
+        <h2 class="row">Resume
+          <p><a href="##">This is a link to my JSON Resume</a></p>
+        </h2>
+      </div>
     </section>
-    <section id="portfolio">
-      <h1>Portfolio
+    <section id="portfolio" class="row">
+      <h1>Portfolio</h1>
+      <div class="small-6 columns">
         <h2>Web Development
-          <h3>Front-End</h3>
-          <h3>Back-End </h3>
+          <div class="row">
+            <div class="small-6 columns">
+              <h3>Front-End</h3>
+            </div>
+            <div class="small-6 columns">
+              <h3>Back-End </h3>
+            </div>
+          </div>
         </h2>
+      </div>
+      <div class="small-6 columns">
         <h2>Photography
-          <h3>Nature</h3>
-          <h3>Portraits</h3>
+          <div class="row">
+            <div class="small-6 columns">
+              <h3>Nature</h3>
+            </div>
+            <div class="small-6 columns">
+              <h3>Portraits</h3>
+            </div>
+          </div>
         </h2>
-      </h1>
+      </div>
     </section>
-    <section id="services">
+    <section id="services" class="row">
       <h1>Services
         <h2>Web Development
           <h3>Static Sites</h3>
-          <h3>Dynamic Sites with Content Management Systems</h3>
+          <h3>Dynamic Sites</h3>
         </h2>
         <h2>Photography</h2>
       </h1>
     </section>
-    <section id="contact">
+    <section id="contact" class="row">
       <h1>Contact
         <h2>Social Media
-          <ul>
-            <li><a id="facebook" href="//www.facebook.com/ryanadkinsphotography">Facebook</a></li>
-            <li><a id="flickr" href="//www.flickr.com/photos/ryanadkins/">Flickr</a></li>
-            <li><a id="linkedin" href="//www.linkedin.com/in/ryanaadkins/">LinkedIn</a></li>
-            <li><a id="github" href="//github.com/ryanadkins">GitHub</a></li>
+          <ul class="inline-list">
+            <li><a id="facebook" href="//www.facebook.com/ryanadkinsphotography"><i class="fa fa-facebook">Facebook</i></a></li>
+            <li><a id="flickr" href="//www.flickr.com/photos/ryanadkins/"><i class="fa fa-flickr">Flickr</i></a></li>
+            <li><a id="linkedin" href="//www.linkedin.com/in/ryanaadkins/"><i class="fa fa-linkedin">LinkedIn</i></a></li>
+            <li><a id="github" href="//github.com/ryanadkins"><i class="fa fa-github">GitHub</i></a></li>
           </ul>
         </h2>
-      </h1><a id="email" href="##">Email RyanAdkins AT gmail DOT com</a>
+      </h1><a id="email" href="##"><i class="fa fa-envelope-o">Email RyanAdkins AT gmail DOT com</i></a>
       <address>Anchorage, Alaska USA </address>
     </section>
   </main>
-  <footer><small>&copy; 2014 Ryan Adkins</small><small>Powered by GitHub Pages</small></footer>
+  <footer class="row"><small class="small-6 columns">&copy; 2014 Ryan Adkins</small><small class="small-6 columns">Powered by GitHub Pages</small></footer>
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script>
     <window class="jQuery">|| document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\\/script>')</window>

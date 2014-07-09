@@ -8,5 +8,5 @@ var domain = "gmail.com";
     //Replace Place Holder href
     $('a#email[href]').attr('href', 'mailto:' + emailAddress + '@' + domain );
     //Replace html if js is enabled
-    $('a#email').html('Email Ryan Adkins');
+    $('a#email').html('<i class="fa fa-envelope-o"></i> Email Ryan Adkins');
 });
