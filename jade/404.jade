@@ -6,7 +6,7 @@ doctype html
 != "<!--[if gt IE 8]><!-->"
 html.no-js
   != "<!--<![endif]-->"
-  include jade/head
+  include include/head
 body#_top
     != "<!--[if lt IE 7]>"
     p.browsehappy
@@ -15,5 +15,5 @@ body#_top
     main(role='main')
         header
             h1 This is a Custom 404 Page
-    include jade/footer
-    include jade/js    
+    include include/footer
+    include include/js    

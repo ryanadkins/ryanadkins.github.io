@@ -1,0 +1,1 @@
+$(document).foundation(),$(document).ready(function(){var a="ryanadkins",n="gmail.com";$("a#email[href]").attr("href","mailto:"+a+"@"+n),$("a#email").html("Email Ryan Adkins")});
