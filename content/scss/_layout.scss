@@ -3,7 +3,7 @@ body {
 }
 main > section {
     width: 100%;
-    min-height: 500px;
+    min-height: 528px;
     background: #f6f6f6;
     border-bottom: rem-calc(6) solid #F0F0F0;
     padding-top: rem-calc(12);
@@ -24,4 +24,25 @@ section > h1 {
 
 section > img {
     border-radius: rem-calc(50);
+}
+section#hero > div.row:nth-child(1) {
+    height: rem-calc(250);
+}
+section#hero > div.row:nth-child(2) {
+    height: rem-calc(75);
+}
+section#hero > div.row:nth-child(3) {
+    height: rem-calc(150);
+}
+section#hero > div.row:nth-child(4) {
+    height: rem-calc(125);
+    
+}
+section#hero > div.row > div.columns {
+    border: 1px solid #333;
+    height: 100%;
+}
+ul#social-media li a i {
+    padding-right: rem-calc(5);
+    font-size: rem-calc(24);
 }

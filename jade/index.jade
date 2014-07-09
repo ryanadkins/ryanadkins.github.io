@@ -14,7 +14,33 @@ body#_top
     != "<![endif]-->"
     main(role='main')
         include include/header
-        section#hero.row
+        section#hero
+            .row
+                .small-5.columns
+                    | 
+                .small-3.columns
+                    | 
+                .small-4.columns
+                    | 
+            .row
+                .small-6.columns
+                    | 
+                .small-4.columns
+                    | 
+                .small-2.columns
+                    | 
+            .row
+                .small-7.columns
+                    | 
+                .small-5.columns
+                    | 
+            .row
+                .small-4.columns
+                    | 
+                .small-5.columns
+                    | 
+                .small-3.columns
+                    | 
         section#about.row
             h1 About
             img#portrait.medium-4.columns.rounded(src='holder.js/300x300/sky')
@@ -28,7 +54,7 @@ body#_top
                 h2.row Resume
                     p
                         a(href="##")
-                            | This is a link to my JSON Resume
+                            | This is a link to my JSON based Resume
         section#portfolio.row
             h1 Portfolio
             .small-6.columns
@@ -59,23 +85,23 @@ body#_top
         section#contact.row
             h1 Contact
                 h2 Social Media
-                    ul.inline-list
+                    ul#social-media.inline-list
                         li
                             a#facebook(href='//www.facebook.com/ryanadkinsphotography')
                                 i.fa.fa-facebook
-                                    | Facebook
+                                | Facebook
                         li
                             a#flickr(href='//www.flickr.com/photos/ryanadkins/')
                                 i.fa.fa-flickr
-                                    | Flickr
+                                | Flickr
                         li
                             a#linkedin(href='//www.linkedin.com/in/ryanaadkins/')
                                 i.fa.fa-linkedin
-                                    | LinkedIn
+                                | LinkedIn
                         li
                             a#github(href='//github.com/ryanadkins')
                                 i.fa.fa-github
-                                    | GitHub
+                                | GitHub
             a#email(href='##')
                 i.fa.fa-envelope-o
                     | Email RyanAdkins AT gmail DOT com
