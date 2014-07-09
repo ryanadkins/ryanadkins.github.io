@@ -17,8 +17,8 @@ body#_top
         section#hero.row
         section#about.row
             h1 About
-            img#portrait.small-4.columns(src='holder.js/300x300/sky')
-            .small-8.columns
+            img#portrait.medium-4.columns.rounded(src='holder.js/300x300/sky')
+            .medium-8.columns
                 h2.row Artist Statement
                     p 
                         | This is my revised artist statement
@@ -47,9 +47,14 @@ body#_top
                             h3 Portraits
         section#services.row
             h1 Services
+            .small-6.columns
                 h2 Web Development
-                    h3 Static Sites
-                    h3 Dynamic Sites
+                    .row
+                        .small-6.columns
+                            h3 Static Sites
+                        .small-6.columns
+                            h3 Dynamic Sites
+            .small-6.columns
                 h2 Photography
         section#contact.row
             h1 Contact
