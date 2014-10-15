@@ -1,9 +1,0 @@
-{
-  "name": "foundation-libsass-template",
-  "dependencies": {
-    "foundation": "zurb/bower-foundation"
-  },
-  "resolutions": {
-    "holderjs": "~2.4.0"
-  }
-}
