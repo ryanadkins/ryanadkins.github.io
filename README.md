@@ -6,16 +6,19 @@ This is Ryan Adkins's personal website
 
 You'll need to have the following items installed before continuing.
 
-  * CodeKit 2:
-  * Foundation 5:
-  * Jade:
+* CodeKit 2:
+* Foundation 5:
+* Jekyll
 
 ## Quickstart
 
 ## Directory Structure
 
-  * content: Holds all site assets
-  * jade: All jade files go here complile to root folder
-  * 'js/app.js': Application js go here
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+* content: Holds all site assets
+* jade: All jade files go here complile to root folder
+* 'js/app.js': Application js go here
+* `scss/_settings.scss`: Foundation configuration settings go in here
+* `scss/app.scss`: Application styles go here
+
+Starter is a barebones starting point for responsive sites built on Jekyll and with
+site management in [prose](http://prose.io).

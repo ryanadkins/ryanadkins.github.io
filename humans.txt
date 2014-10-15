@@ -2,5 +2,5 @@
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal, Jade, Foundation 5
-  Software: Brackets, GitHub
+  Components: jQuery, Jekyll, Prose.io, Foundation 5
+  Software: Brackets.io, GitHub
