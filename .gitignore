@@ -11,5 +11,4 @@ Thumbs.db
 /content/css/*
 .sass-cache
 /node_modules/*
-*.html
 _site/*
