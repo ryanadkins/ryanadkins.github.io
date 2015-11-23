@@ -1,10 +1,29 @@
 {
-  "name": "foundation-libsass-template",
-  "version": "0.0.1",
+  "name": "ryanadkins.github.io",
+  "version": "1.0.0",
+  "description": "This is Ryan Adkins's personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanadkins/ryanadkins.github.io.git"
+  },
+  "keywords": [
+    "Ryan",
+    "Adkins"
+  ],
+  "author": "Ryan Adkins <ryanadkins@gmail.com> (http://ryanadkins.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanadkins/ryanadkins.github.io/issues"
+  },
+  "homepage": "https://github.com/ryanadkins/ryanadkins.github.io#readme",
   "devDependencies": {
-    "node-sass": "~0.7.0",
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-sass": "~0.8.0"
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.0"
   }
 }

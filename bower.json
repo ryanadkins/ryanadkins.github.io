@@ -1,9 +1,26 @@
 {
-  "name": "foundation-libsass-template",
+  "name": "ryanadkins.github.io",
+  "description": "This is Ryan Adkins's personal website",
+  "main": "index.html",
+  "authors": [
+    "Ryan Adkins <ryanadkins@gmail.com> (http://ryanadkins.com)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Ryan",
+    "Adkins"
+  ],
+  "homepage": "https://github.com/ryanadkins/ryanadkins.github.io",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
-  },
-  "resolutions": {
-    "holderjs": "~2.4.0"
+    "foundation-sites": "~6.0.3"
   }
 }

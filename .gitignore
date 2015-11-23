@@ -1,14 +1,6 @@
-# OS generated files #
-######################
-.DS_Store?
-ehthumbs.db
-._*
-# Icon?
-Thumbs.db
-
-# Content files #
-######################
-/content/css/*
+node_modules
+bower_components
+_site
 .sass-cache
-/node_modules/*
-_site/*
+.jekyll-metadata
+.DS_Store
